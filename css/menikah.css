@@ -9,6 +9,42 @@
   box-sizing: border-box;
 }
 
+div.popup{
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,.8);
+}
+
+div#box{
+  margin:10% auto;
+  background:#fff;
+  width:10%;
+  height:10%;
+  -webkit-box-shadow:0 0 15px #000;
+  -moz-box-shadow:0 0 15px #000;
+  box-shadow:0 0 15px #000;
+  border-radius: 30px;
+  z-index: 3;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #996E6D;
+}
+
+a.close{
+  text-decoration:none;
+  color:#000;
+  margin:10px 15px 0 0;
+  float:right;
+  font-family:tahoma;
+  font-size:20px;
+}
+
 html {
   font-family: 'Raleway', Tahoma, sans-serif;
   width: 100%;
